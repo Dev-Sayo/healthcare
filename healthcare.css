@@ -22,6 +22,10 @@ body {
   border-bottom: 2px solid var(--grey-color);
   padding: 5px;
 }
+select{
+  border: none;
+  outline: none;
+}
 .header-nav ul li {
   display: inline-block;
   list-style-type: non;
@@ -192,9 +196,10 @@ body {
   padding-block: 2rem;
 }
 .container {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
+  margin: 0 auto;
 }
 .box {
   display: flex;
@@ -253,7 +258,7 @@ time {
 .row {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
 }
 .fluid-image,
 .fluid-text {
@@ -424,7 +429,7 @@ blockquote:nth-of-type(2) {
   text-align: center;
 }
 .contact {
-  height: 450px;
+  height: 500px;
   background: #222;
   color: var(--white-color);
 }
@@ -465,6 +470,7 @@ blockquote:nth-of-type(2) {
 }
 footer {
   height: auto;
+  background: red;
 }
 .footer-top {
   height: 400px;
