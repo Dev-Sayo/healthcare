@@ -200,6 +200,7 @@ select{
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
+  height: 500px;
 }
 .box {
   display: flex;
@@ -636,7 +637,7 @@ footer {
   .nav-con {
     display: block;
   }
-  footer {
+  .footer {
     height: 80vh;
   }
   .footer-top {
@@ -649,6 +650,9 @@ footer {
   }
   .footer-bottom {
     display: block;
+  }
+  .two ul{
+    columns: 1;
   }
   .newsletter input {
     width: 700px;
